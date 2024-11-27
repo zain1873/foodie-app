@@ -1,0 +1,19 @@
+.service-item {
+  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+  transition: .4s;
+  cursor: pointer;
+}
+.service-item:hover {
+  background: var(--primary);
+}
+.card_content {
+  transition: .4s;
+}
+.service-item:hover .card_content {
+  color: #fff;
+}
+
+.service-item:hover .card_content i {
+  color: #fff !important;
+}
+

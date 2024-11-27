@@ -1,0 +1,46 @@
+.team_card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.team-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.team-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.team-position {
+  font-size: 1rem;
+  color: #777;
+  margin-top: 5px;
+}
+
+
+.team_card {
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.team_card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+}
+
+.team-image {
+  width: 252px;
+  height: 252px;
+}
+
+.team_section {
+  background-color: #eee;
+}
